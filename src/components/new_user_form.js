@@ -52,6 +52,10 @@ let NewUserForm = props => {
         <label htmlFor="zip">Zip</label>
         <Field name="zip" component="input" type="text" />
       </div>
+      <div>
+        <label htmlFor="country">Country</label>
+        <Field name="country" component="input" type="text" />
+      </div>
       <button type="submit">Submit</button>
     </form>
   )
